@@ -6,10 +6,11 @@ function App() {
     console.log('hello')
   }
   return (
-    <main>
-      React⚛️ + Vite⚡ + Replit🌀
-      <button onClick={handleClick}>click me</button>
-    </main>
+      <>
+    <div className='App'>
+      
+    </div>
+      </>
   );
 }
 

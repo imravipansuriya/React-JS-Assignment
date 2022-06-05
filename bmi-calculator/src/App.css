@@ -47,6 +47,11 @@
   width: fit-content;
   margin: 0 auto;
 }
+.bmi-message p {
+  width: 260px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
 
 @keyframes App-logo-spin {
   from {
