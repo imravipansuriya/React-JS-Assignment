@@ -1,19 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-const Image = (props) => {
+function Image (props)  {
   const { tags, webformatURL, user } = props;
+
+
 
   
   return (
+    <>
+     
     <div className="row">
       <div className="col-md-12 card px-0">
         <div className="rounded-lg overflow-hidden">
-          <img src={webformatURL} className="img-fluid " alt={tags}/>
+          <img src={webformatURL} className="img-fluid " alt={tags} />
           <span>Auther</span>
           <h1>{user}</h1>
         </div>
       </div>
     </div>
+    
+      </>
   );
 };
 
